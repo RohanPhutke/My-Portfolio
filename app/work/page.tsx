@@ -43,8 +43,7 @@ const projects = [
   },
 ]
 const WorkPage = () => {
-  const [currentIndex,setCurrentIndex] = useState(0);
- 
+  
   return (
     <div className='py-6 md:py-12'>
       <PageLayout>

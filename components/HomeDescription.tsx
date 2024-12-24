@@ -1,7 +1,7 @@
 // import React from 'react'
 'use client'
 import { useTypeWriter } from '@/hooks/use-type-writer'
-import {animate, motion} from 'motion/react'
+import {motion} from 'motion/react'
 import { useEffect, useState } from 'react'
 const HomeDescription = () => {
     const description = 

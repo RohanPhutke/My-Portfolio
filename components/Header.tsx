@@ -7,8 +7,6 @@ import { usePathname } from "next/navigation"
 import { Menu } from "lucide-react";
 import Sidebar from "./Sidebar";
 import { useState } from "react";
-import path from "path";
-
 const Header = () => {
   const [isSideBarOpen,setIsSideBarOpen] = useState(false);
   const pathname = usePathname()

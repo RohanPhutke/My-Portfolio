@@ -8,7 +8,7 @@ interface Props{
     subtitle:string;
 }
 
-function Logo({className,title,subtitle} : Props) {
+function Logo({title,subtitle} : Props) {
   return (
     <div className='text-2xl group'>
         <Link href = {"/"}>

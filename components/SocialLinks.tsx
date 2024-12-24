@@ -1,6 +1,5 @@
-import { GithubIcon, Icon, LinkedinIcon, TwitterIcon } from 'lucide-react'
+import { GithubIcon,LinkedinIcon, TwitterIcon } from 'lucide-react'
 import Link from 'next/link'
-import { title } from 'process'
 import React from 'react'
 import { Tooltip } from './ui/tooltip'
 import { TooltipContent, TooltipProvider, TooltipTrigger } from '@radix-ui/react-tooltip'
