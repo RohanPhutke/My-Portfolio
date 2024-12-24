@@ -1,7 +1,7 @@
 'use client';
 import PageLayout from '@/components/PageLayout'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
-import React, { useState } from 'react'
+import React from 'react'
 import proj from '@/images/proj.jpg'
 import { Card, CardContent } from '@/components/ui/card';
 import Image from 'next/image';
@@ -43,7 +43,7 @@ const projects = [
   },
 ]
 const WorkPage = () => {
-  
+
   return (
     <div className='py-6 md:py-12'>
       <PageLayout>

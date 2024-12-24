@@ -8,7 +8,7 @@ interface Props{
 }
 import React from 'react'
 
-const PageTransition = ({children,className} : Props) => {
+const PageTransition = ({children} : Props) => {
   const pathname = usePathname()
 
     return (
