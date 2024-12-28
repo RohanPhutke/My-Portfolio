@@ -45,7 +45,7 @@ const ContactForm = () => {
     form.append('Service',formData.Service);
     form.append('DateTime',currentDateTime);
 
-    const response = await fetch('https://api.getform.io/v1/forms/bxoonlea?token=Q4IGxzduUGxvlaO8nvg65hElN8QnjE4UcxvCUwl9unOLAwjyjSQHJ9QTy9Ud',
+    const response = await fetch('https://getform.io/f/bxoonlea',
       {
         method:'POST',
         body:form,
