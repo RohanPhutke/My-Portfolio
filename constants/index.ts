@@ -7,8 +7,7 @@ export const navbarData = [
 ]
 
 export const statsData = [
-    {num : 2,title : "Years of experience"},
-    {num : 20, title : "Projects completed"},
+    {num : 10, title : "Projects completed"},
     {num : 8 ,title : "Technologies Mastered"},
     {num : 500,title : "Code commits"},
 ]
@@ -17,29 +16,20 @@ export const servicesData = [
 {
     _id: "01",
     title: "Web Development",
-    description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit.Placeat, sequi distinctio minus esse fugit accusamusvelit iste quisquam aut.",
-    href: "https://www.github.com/RohanPhutke" ,
+    description: "Crafting dynamic and responsive web applications using modern tools and technologies. Skilled in creating user-friendly interfaces and building functional solutions to enhance the user experience.",
+    href: "https://www.github.com/RohanPhutke",    
 },
 {
-    _id:"02",
-    title: "App Development",
-    description:
-    "Lorem ipsum dolor sit amet consectetur adip@yicing elit.Placeat, sequi distinctio minus esse consequatur fugit accusamusvelit iste quisquam aut.",
-    href: "https://www.github.com/RohanPhutke" ,
+    _id: "02",
+    title: "App Development",   
+    description: "Designing and developing mobile applications with a focus on performance, usability, and cross-platform compatibility. Passionate about creating apps that solve real-world problems and deliver a seamless user experience.",
+    href: "https://www.github.com/RohanPhutke",
+
 },
 {
-    _id:"03",
+    _id: "03",
     title: "UI/UX Design",
-    description:
-    "Lorem ipsum dolor sit amet consectetur adip@yicing elit.Placeat, sequi distinctio minus esse consequatur fugit accusamusvelit iste quisquam aut.",
-    href: "https://www.github.com/RohanPhutke" ,
+    description: "Creating intuitive and visually appealing designs that prioritize user experience. Skilled in transforming ideas into user-centric interfaces that enhance usability and engagement.",
+    href: "https://www.github.com/RohanPhutke",    
 },
-{
-    _id:"04",
-    title: "Logo Design",
-    description:
-    "Lorem ipsum dolor sit amet consectetur adip@yicing elit.Placeat, sequi distinctio minus esse consequatur fugit accusamusvelit iste quisquam aut.",
-    href: "https://www.github.com/RohanPhutke" ,
-}
 ]

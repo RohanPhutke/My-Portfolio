@@ -3,6 +3,10 @@ import PageLayout from '@/components/PageLayout'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
 import React from 'react'
 import proj from '@/images/proj.jpg'
+import WhiteLinkImg from "@/images/WhiteLinkImg.jpeg";
+import HMS from "@/images/HMS.png"
+import MOD from "@/images/MOD.jpg"
+import WeatherP from "@/images/WeatherP.png"
 import { Card, CardContent } from '@/components/ui/card';
 import Image from 'next/image';
 import { Separator } from '@/components/ui/separator';
@@ -12,36 +16,47 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 const projects = [
   {
-    id : "01",
-    title : "Something title",
-    category:"category",
-    description:"desc",
-    stack:["sda","aare","upu"],
-    image:proj,
-    liveURL:"/",
-    githubURL:"https://github.com/Rohanphutke",
+    id: "01",
+    title: "WhiteLink - Realtime Collaboration Project",
+    category: "Collaboration, Real-time Sync",
+    description: "Built a digital whiteboard for real-time collaboration with instant updates. Features include brainstorming, app wireframing, and idea organization. Enabled team collaboration with organization creation and member invites. Used Liveblocks for real-time sync and Clerk for secure authentication.",
+    stack: ["NextJS 14", "React", "Tailwind", "ShadCN UI", "Convex", "Liveblocks", "Clerk"],
+    image: WhiteLinkImg,  // Add the appropriate image path here
+    liveURL: "https://white-link.vercel.app",  // Add the live project URL if available
+    githubURL: "https://github.com/Rohanphutke",
   },
   {
-    id : "02",
-    title : "Next Title",
-    category : "category",
-    description : "description",
-    stack : ["sda","aare","upu"],
-    image : proj,
-    liveURL : "/",
-    githubURL : "https://github.com/Rohanphutke",
+    id: "02",
+    title: "Hostel Management System",
+    category: "Backend, Frontend, Database",
+    description: "Worked as a Backend Developer and contributed to the frontend, creating RESTful APIs for seamless communication between the frontend and MySQL database, improving data retrieval times by 50%. Developed room booking functionality with a locking system and designed dedicated admin and student dashboards for enhanced user experience.",
+    stack: ["ReactJS", "NodeJS", "ExpressJS", "HTML", "CSS", "MySQL"],
+    image: HMS,  // Add the appropriate image path here
+    liveURL: "/",  // Add the live project URL if available
+    githubURL: "https://github.com/Rohanphutke",
   },
   {
-    id : "03",
-    title : "Next Next Title",
-    category : "category",
-    description : "description",
-    stack : ["sda","aare","upu"],
-    image : proj,
-    liveURL : "/",
-    githubURL : "https://github.com/Rohanphutke",
+    id: "03",
+    title: "Malicious Object Detection - Machine Learning",
+    category: "Machine Learning, Object Detection",
+    description: "Built a system to detect and classify malicious objects. Trained on an 11k balanced dataset sourced from Roboflow. Used YOLOv8 for object detection and DepthAnythingv2 for depth verification. Added a YOLO-based classifier to differentiate real and fake objects.",
+    stack: ["YOLOv8", "DepthAnythingv2", "Python", "OpenCV"],
+    image: MOD,  // Add the appropriate image path here
+    liveURL: "/",  // Add the live project URL if available
+    githubURL: "https://github.com/Rohanphutke",
   },
-]
+  {
+    id: "04",
+    title: "Weather Forecasting App",
+    category: "Frontend, Weather API",
+    description: "Solely developed the frontend, integrating a weather API to fetch and display real-time weather data. Implemented a feature that displays current weather and a 7-day forecast for any city.",
+    stack: ["ReactJS", "HTML", "CSS"],
+    image: WeatherP,  // Add the appropriate image path here
+    liveURL: "/",  // Add the live project URL if available
+    githubURL: "https://github.com/Rohanphutke",
+  },
+];
+
 const WorkPage = () => {
 
   return (
@@ -69,7 +84,7 @@ const WorkPage = () => {
                           </h2>
                           <h3 className='text-xl md:text-3xl font-bold
                            leading-none text-white group-hover:text-lightSky hoverEffect'>
-                            {project.category} project
+                            {project.title} project
                           </h3>
                           <p className='text-white/60 text-sm md:text-base
                           leading-6 md:leading-normal'>
@@ -102,12 +117,12 @@ const WorkPage = () => {
                                   text-white/80 border-lightSky/20 hover:border-lightSky
                                   hover:text-hoverColor hoverEffect">
                                     <ArrowUpRight/> {" "}
-                                    <span className='sr-only'>View Live Project</span>
+                                    <span className='sr-only'>Live Project</span>
                                   </Link>
                                   </Button>       
                                 </TooltipTrigger>
                                 <TooltipContent className='bg-white text-black font-semibold'>
-                                  <p>View Live Project</p>
+                                  <p>Live Project</p>
                                 </TooltipContent>
                               </Tooltip>
                             </TooltipProvider>
@@ -126,12 +141,12 @@ const WorkPage = () => {
                                   text-white/80 border-lightSky/20 hover:border-lightSky
                                   hover:text-hoverColor hoverEffect">
                                     <Github/> {" "}
-                                    <span className='sr-only'>View Live Project</span>
+                                    <span className='sr-only'>Live Project</span>
                                   </Link>
                                   </Button>       
                                 </TooltipTrigger>
                                 <TooltipContent className='bg-white text-black font-semibold'>
-                                  <p>View Github Repo</p>
+                                  <p>Github Repo</p>
                                 </TooltipContent>
                               </Tooltip>
                             </TooltipProvider>

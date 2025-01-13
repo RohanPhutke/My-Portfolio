@@ -84,9 +84,7 @@ const ContactForm = () => {
       Let&apos;s work together
       </h3>
       <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Harum tenetur culpa pariatur vero minima itaque laudantium enim eligendi quae dignissimos error, repellendus excepturi, 
-          delectus earum modi totam! Architecto, ipsam assumenda!
+      As a developer, I turn ideas into functional, scalable solutions. From building new projects to improving existing ones, I focus on clean code, efficiency, and user-centered design. Let’s create something exceptional together!
       </p>
       <>
     {

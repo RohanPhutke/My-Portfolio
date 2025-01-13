@@ -8,7 +8,7 @@ import React from 'react'
 const infoData = [
   {
     title:'Phone',
-    description: "(+021) 251 198 254",
+    description: "(+91) 9067475435",
     icon:<Phone/>
   },
   {

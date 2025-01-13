@@ -5,7 +5,7 @@ import {motion} from 'motion/react'
 import { useEffect, useState } from 'react'
 const HomeDescription = () => {
     const description = 
-    ' As a Software Engineer, I design and build innovative software solutions, solve complex problems and ensure systems are scalable and user-friendly. From creating web apps to optimizing backend systems, I bridge the gap between technology and user needs.'
+    ' As a tech-savvy student, I build innovative software projects, solve complex problems, and create user-friendly solutions. I bridge theory and practice through web development and exploring new tools to tackle real-world challenges.'
     const [hasloaded,setHaslLoaded] = useState(false)
     const {displayedText,isComplete} = useTypeWriter(description,30);
     
