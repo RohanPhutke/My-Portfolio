@@ -2,7 +2,6 @@
 import PageLayout from '@/components/PageLayout'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
 import React from 'react'
-import proj from '@/images/proj.jpg'
 import WhiteLinkImg from "@/images/WhiteLinkImg.jpeg";
 import HMS from "@/images/HMS.png"
 import MOD from "@/images/MOD.jpg"
